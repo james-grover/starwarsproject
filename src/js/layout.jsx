@@ -9,6 +9,7 @@ import injectStore from "./store/appContext.jsx";
 
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
+import App from "./component/App.jsx";
 
 //create your first component
 export class Layout extends React.Component {
@@ -19,7 +20,7 @@ export class Layout extends React.Component {
 					<ScrollToTop>
 						<Navbar />
 						<Switch>
-							<Route exact path="/" component={Home} />
+							<Route exact path="/" component={App} />
 							<Route path="/demo" component={Demo} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />
