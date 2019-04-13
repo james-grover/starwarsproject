@@ -10,6 +10,7 @@ import injectStore from "./store/appContext.jsx";
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
 import App from "./component/App.jsx";
+import LearnMore from "./component/LearnMore.jsx";
 
 //create your first component
 export class Layout extends React.Component {
@@ -21,7 +22,7 @@ export class Layout extends React.Component {
 						<Navbar />
 						<Switch>
 							<Route exact path="/" component={App} />
-							<Route path="/demo" component={Demo} />
+							<Route path="/LearnMore" component={LearnMore} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>
