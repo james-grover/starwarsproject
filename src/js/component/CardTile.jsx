@@ -12,7 +12,7 @@ function CardTile(props) {
 			</div>
 			<div className="card-footer">
 				<a href="#" className="btn btn-primary">
-					Find Out More!
+					Learn More!
 				</a>
 			</div>
 		</div>
