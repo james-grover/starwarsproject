@@ -9,6 +9,9 @@ import CardRow2 from "./CardRow2.jsx";
 
 // below was preexisting code
 export default class App extends React.Component {
+	// new code -- if breaks delete this shit --
+
+	// keep code same below
 	render() {
 		return (
 			<div>

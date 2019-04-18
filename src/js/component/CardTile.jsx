@@ -19,7 +19,7 @@ function CardTile(props) {
 	);
 }
 CardTile.propTypes = {
-	cardinfo: PropTypes.string
+	cardinfo: PropTypes.object
 };
 
 export default CardTile;
