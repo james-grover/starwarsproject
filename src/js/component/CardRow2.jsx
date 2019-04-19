@@ -7,20 +7,19 @@ function CardRow() {
 		<div className="row text-center">
 			<Context.Consumer>
 				{({ store, actions }) => {
-					return store.people.map((item, index) => {
-						console.log(item.name);
+					return store.people.map((people, index) => {
+						console.log(people.name);
 
 						return (
 							<div
 								className="col-lg-3 col-md-6 mb-4"
-								key={item.index}>
+								key={people.index}>
 								<CardTile
 									cardinfo={{
 										photo:
 											"https://starwars-visualguide.com/assets/img/characters/4.jpg",
-										title: item.name,
-										text:
-											"Random Picture of 400 x 200 pixels"
+										title: people.name,
+										text: people.gender
 									}}
 								/>
 							</div>

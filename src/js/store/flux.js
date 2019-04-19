@@ -1,7 +1,49 @@
 const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
-			people: []
+			people: [],
+			photo: [
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/1.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/2.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/3.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/4.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/5.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/6.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/7.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/8.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/9.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/characters/10.jpg"
+				}
+			]
 		},
 
 		actions: {
