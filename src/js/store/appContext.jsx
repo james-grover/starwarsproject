@@ -20,11 +20,11 @@ const injectStore = PassedComponent => {
 			fetch("https://swapi.co/api/people/")
 				.then(response => response.json())
 				.then(data => {
-					//.then(json => console.log(json))
+					//  .then(json => console.log(json))
 					//	.catch(error => console.log(error));
 
 					let { store } = this.state;
-					store.characters = data.results;
+					store.people = data.results;
 					this.setState({ store });
 				});
 		}
