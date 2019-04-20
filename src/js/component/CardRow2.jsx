@@ -7,8 +7,16 @@ function CardRow() {
 		<div className="row text-center">
 			<Context.Consumer>
 				{({ store, actions }) => {
+					const ppic = store.photo;
+					//console.log(pic);
+					let i = 0;
+
 					return store.people.map((people, index) => {
-						console.log(people.name);
+						//i++;
+						console.log(ppic[i]);
+						//const ppl = store.photo.pic;
+
+						//console.log(store.photo.pic);
 
 						return (
 							<div
@@ -16,12 +24,12 @@ function CardRow() {
 								key={people.index}>
 								<CardTile
 									cardinfo={{
-										photo:
-											"https://starwars-visualguide.com/assets/img/characters/4.jpg",
+										photo: ppic[i].pic,
 										title: people.name,
 										text: people.gender
 									}}
 								/>
+								{i++}
 							</div>
 						);
 					});
