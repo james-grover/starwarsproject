@@ -2,6 +2,7 @@ const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
 			people: [],
+			planets: [],
 			photo: [
 				{
 					pic:
@@ -42,6 +43,48 @@ const getState = ({ getStore, setStore }) => {
 				{
 					pic:
 						"https://starwars-visualguide.com/assets/img/characters/10.jpg"
+				}
+			],
+			planetpics: [
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/2.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/3.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/4.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/5.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/6.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/7.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/8.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/9.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/10.jpg"
+				},
+				{
+					pic:
+						"https://starwars-visualguide.com/assets/img/planets/11.jpg"
 				}
 			]
 		},
