@@ -12,7 +12,7 @@ export default class JumboTron extends React.Component {
 				<header className="jumbotron my-4" style={imgHeader}>
 					<h1 className="display-3" />
 					<p className="lead">--</p>
-					<a href="#" className="btn btn-primary btn-lg">
+					<a href="#" className="btn btn-primary btn-lg invisible">
 						Call to action!
 					</a>
 				</header>
